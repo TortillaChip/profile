@@ -54,6 +54,10 @@ a:hover {
   padding: 0px 20px;
 }
 
+.list-inline {
+  padding: 0;
+}
+
 .description {
   color: #86888A;
   font-size: 20px;
