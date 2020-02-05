@@ -4,13 +4,17 @@ body {
   font-size: 40px;
 }
 
+ul {
+  padding: 0;
+}
+
 img {
   width: 200px;
   height: 200px;
 }
 
 h1,h2,h3 {
-  color: darkgrey;
+  color: #202124;
   font-size: 48;
   font-family: Varela;
 }
