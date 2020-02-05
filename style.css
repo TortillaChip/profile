@@ -1,0 +1,86 @@
+body {
+  background-color: lightgrey;
+  font-family: helvetica;
+  font-size: 40px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+h1,h2,h3 {
+  color: darkgrey;
+  font-size: 48;
+  font-family: Varela;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+.headline {
+  font-weight: bold;
+}
+
+.container {
+  width: 700px;
+  margin: 20px auto
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10;
+  margin: 20px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.description {
+  color: #86888A;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sw_button {
+  background-color: black;
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 20px;
+}
+
+#link {
+  color: white;
+  font-size: 24x
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
